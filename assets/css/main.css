@@ -1,0 +1,143 @@
+/** GLOBLAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Sora:wght@300&display=swap');
+
+
+:root {
+    --primary-color: #4175fc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Sora', sans-serif;
+}
+
+
+/** LANDING PAGE */
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.feeds-scroll {
+    width: 50%;
+    background-image: url(/img/IMG_9537.jpeg);
+    background-size: cover;
+}
+
+.landing-content {
+    width: 50%;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+
+.main-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-menu {
+    display: flex;
+}
+
+.navigation-menu .menu-item,
+.join-community-menu-item {
+    text-decoration: none;
+    line-height: 40px;
+    color: #444;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navigation-menu .join-community-menu-item {
+    background-color: var(--primary-color);
+    color: white;
+    /* border-radius: 10px; */
+}
+
+.landing-intro {
+    font-family: 'Merriweather', serif;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.founder-tag {
+    border: 0.01em solid #444;
+    padding: 3px;
+    /* border-radius: 3px; */
+    color: var(--primary-color);
+}
+
+.founder-intro__wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.divider-separator {
+    border-bottom: 0.01em solid #444;
+    width: 100px;
+}
+
+.brand-description {
+    font-size: 52px;
+    margin-bottom: 50px;
+}
+
+.resources-link__wrapper a,
+.social-media-link {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.resources-link__wrapper a {
+    color: var(--primary-color);
+    padding-bottom: 10px;
+    border-bottom: 0.01em solid var(--primary-color);
+}
+
+
+.social-medias__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-medias__wrapper .title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.social-medias__cards {
+    display: flex;
+}
+
+.social-media__card {
+    border: 0.01em solid #444;
+    /* border-radius: 10px; */
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.social-media-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

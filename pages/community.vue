@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 onMounted(() => {
-  navigateTo('https://discord.gg/JQVHpR7P5X', {
+  navigateTo('https://www.meetup.com/devseccon-kenya/', {
     external: true,
     open: {
       target: '_blank'
@@ -14,7 +14,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-full my-10 text-center">
+  <div class="w-full mb-10 mt-40 text-center">
     <p>Redirecting to the server...</p>
     <p>If you are not automatically redirected, click on the link below or copy and paste it in your browser </p>
     <p>
